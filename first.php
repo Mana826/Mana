@@ -76,8 +76,14 @@
   //櫻井がはしゃいでかまくらを作り始めました。どれだけの体積の雪が必要か計算しなさい。
   //そのかまくらは四角形であり、以下の配列に外側の1辺と内側の1辺の長さが入っている。(r1 > r2)
   //下の行のecho文のコメントを外すとimageが出てくるのでこちらも参照するとわかりやすい。
-  //echo '<img src="./assets/img/img1.png">';
+  echo "<br>";
+  echo '<img src="./assets/img/img1.png">';
+  echo "<br>";
   $size = array(6, 4);
+  echo $size[0] * $size[0] - $size[1] * $size[1];
+  
+
+  
 
   //課題3
   //行列の計算
