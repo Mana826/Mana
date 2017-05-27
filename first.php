@@ -58,7 +58,11 @@
 
   //練習問題5
   //連想配列内に、nameキーに'櫻井'、ageキーに'22'、placeキーに'富山'を入力して、ブラウザ上にそれぞれを表示せよ。
-  $lists = array();
+  echo "<br>";
+  $lists = array('name' => '櫻井', 'age' => '22', 'place' => '富山');
+  echo $lists['name'];
+  echo $lists['age'];
+  echo $lists['place'];
 
   //課題1
   //西暦の計算
