@@ -116,7 +116,8 @@
   $size = array(6, 4);
   echo $size[0] * $size[0] - $size[1] * $size[1];
 
-
+  //課題２修正
+  echo $size[0] * $size[0] *$size[0] - $size[1] * $size[1] * $size[1];
 
 
   //課題3
@@ -149,6 +150,15 @@
   echo $myself['major'];
   echo $myself['pet'];
   echo $myself['like'];
+
+  //課題４修正
+  echo "<br>" ."<br>";
+  $me = array('name' => '高井万奈', 'place' => '長野市', 'major' => '知能デザイン工学科', 'pet' =>'ネコ', 'like' => 'チョコとコーヒー' );
+
+  echo '私は' .$me['name'] . 'です。' . $me['place'] .'出身で、' . $me['major'] . 'に所属しています。' . "<br>";
+  echo '実家では' . $me['pet'] . 'を飼っています。' . "<br>";
+  echo $me['like'] . 'が好きです。' . "<br>" ;
+  echo "<br>";
 
   //課題5
   //1~100までの数字を表示するプログラムを作成せよ。
