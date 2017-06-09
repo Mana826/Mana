@@ -90,6 +90,33 @@
     2   ->   D
     1   ->   E
   */
+   echo "<br>";
+   $d = 'B';
+
+   switch ($d) {
+      case 'A':
+      echo '5';
+      break;
+       
+      case 'B':
+      echo '4';
+      break;
+
+      case 'C':
+      echo '3';  
+      break;
+
+      case 'D':
+      echo '2';
+      break;
+
+      default:
+      echo '1';
+       
+      break;
+
+   }
+
 
   //練習問題8
   //変数$i = 10; を用意し、10から1まで1つずつカウントダウンするプログラムを作成せよ。(1つずつ改行して表示せよ)
