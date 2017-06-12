@@ -150,6 +150,23 @@
   //以下の変数を用いて加減乗除のそれぞれの関数を作成せよ。
   $a = 10;
   $b = 5;
+  echo "<br>";
+  function add ($a,$b){
+    $c = $a + $b;
+    return $c;
+  }
+  function sub ($a,$b){
+    $d = $a - $b;
+    return $d;
+  }
+  function mult ($a,$b){
+    $e = $a * $b;
+    return $e;
+  }
+  function divison($a,$b){
+    $f = $a / $b;
+    return $f;
+  }
 
   //課題1
   //西暦の計算
