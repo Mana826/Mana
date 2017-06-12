@@ -124,8 +124,7 @@
   echo "<br>";
   $i = 10;
   while ($i>= 1) {
-    echo $i;
-    echo "<br>";
+    echo $i . "<br>";
     $i--;
   }
 
@@ -134,14 +133,18 @@
   //この問題にはforを用いること
 
   for($e = 1; $e <= 9; $e++){
-      echo $e * 5;
-      echo ' ';
+      echo $e * 5 . ' ';
   }
 
   //練習問題10
   //以下の配列を表示せよ。(1つずつ改行して表示せよ)
   //この問題にはforeachを用いること
+
+  echo "<br>";
   $food = array('carry', 'onigiri', 'candy', 'ham', 'meet', 'rice');
+  foreach ($food as $key ) {
+    echo $key . "<br>";
+  }
 
   //練習問題11
   //以下の変数を用いて加減乗除のそれぞれの関数を作成せよ。
