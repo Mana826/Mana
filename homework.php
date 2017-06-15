@@ -260,11 +260,25 @@
   $jisa = array(5, array('tokyo', 9), array('beijing', 8), array('singapore', 7), array('london', 0), array('newyork', -5), array('singapore', '22:38'));
   //print_r($jisa);
 
+  echo "<br>";
+  print_r($jisa);
+  echo "<br>";
+
+  echo $jisa[6][0] . " " . $jisa[6][1];
+
   //課題7
   //練習問題1~10と課題1~5を関数化せよ。
 
   //課題7.1
   //練習問題1の関数化
+
+  echo "<br>";
+
+  function fullname ($first_name,$last_name){
+    $fullname = $first_name . $last_name;
+    return $fullname;
+  }
+  echo fullname('Takai','Mana');
 
   //課題7.2
   //練習問題2の関数化
