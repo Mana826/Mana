@@ -274,15 +274,23 @@
 
   echo "<br>";
 
-  function fullname ($first_name,$last_name){
-    $fullname = $first_name . $last_name;
-    return $fullname;
+  function hoge($first, $last){
+    $hoge = $first . $last;
+    return $hoge;
   }
-  echo fullname('Takai','Mana');
-
+  $i = hoge('Takai', 'Mana');
+  echo $i;
+ 
   //課題7.2
   //練習問題2の関数化
 
+  echo "<br>";
+  $a = 8;
+  $b = 3;
+  $j = mult($a, $b);
+  echo $j;
+
+ 
   //課題7.3
   //練習問題3の関数化
 
