@@ -289,10 +289,36 @@
   $b = 3;
   $j = mult($a, $b);
   echo $j;
+  
+  echo "<br>";
+  $a = 24;
+  $b = 8;
+  $k = divison($a,$b);
+  echo $k;
 
+  echo "<br>";
+  $a = 6;
+  $b = 10;
+  $l = add($a,$b);
+  echo $l;   
+
+  echo "<br>";
+  $a = 6;
+  $b = 10;
+  $m = sub($a,$b);
+  echo $m;
+  
  
-  //課題7.3
+  echo "<br>";
+  function rest($a,$b){
+    $hogehoge = $a % $b;
+    return $hogehoge;
+  }
+  $hogehoge = rest('10','7');
+  echo $hogehoge;
+ 
   //練習問題3の関数化
+  //課題7.3
 
   //課題7.4
   //練習問題4の関数化
